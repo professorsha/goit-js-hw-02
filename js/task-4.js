@@ -1,11 +1,11 @@
 function getShippingCost(country) {
-  let price = 0;
+ // let price=0;
   switch (country) {
     case "China":
       price = 100;
       break;
     case "Chile":
-      price = 150;
+      price = 250;
       break;
     case "Australia":
       price = 170;
